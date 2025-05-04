@@ -1,4 +1,5 @@
 Step-by-Step Guide to Create the Application
+
 ✅ Step 1: Log in to Salesforce
 •	Go to https://login.salesforce.com.
 •	Log in with your credentials.
@@ -50,8 +51,8 @@ o	Use Ctrl+F to search for USER_DEBUG.
 
 
 ------------------------------------------------------------------------------------------------------------------------
-
 13.	Subtraction of Two Numbers
+
 public class SubtractionDemo {
 public static Integer subtract(Integer a, Integer b) { return a - b;
 }
@@ -62,6 +63,7 @@ Execute:
 Integer result = SubtractionDemo.subtract(20, 5); System.debug('Subtraction result: ' + result);
 ---------------------------------------------------------------------------------------------------------------------------
 14.	Multiplication of Two Numbers
+
 public class MultiplicationDemo {
 public static Integer multiply(Integer a, Integer b) { return a * b;
 }
@@ -72,6 +74,7 @@ Execute:
 Integer result = MultiplicationDemo.multiply(4, 6); System.debug('Multiplication result: ' + result);
 ----------------------------------------------------------------------------------------------------------------------------
 15.	Division of Two Numbers
+
 public class DivisionDemo {
 public static Decimal divide(Decimal a, Decimal b) { if (b != 0) {
 return a / b;
@@ -85,9 +88,10 @@ return null;
 Execute:
 
 Decimal result = DivisionDemo.divide(10, 2); System.debug('Division result: ' + result);
--------------------------------------------------------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------------------------------------------------------
 16.	Add, Subtract, Multiply, Divide Together
+
 public class AllOperations {
 public static void calculate(Integer a, Integer b) { System.debug('Addition: ' + (a + b)); System.debug('Subtraction: ' + (a - b)); System.debug('Multiplication: ' + (a * b));
 if (b != 0) {
@@ -101,8 +105,10 @@ System.debug('Division: Cannot divide by zero');
 Execute:
 
 AllOperations.calculate(20, 4);
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 17.	Display Multiples of 5 (Table of 5)
+
 public class TableOfFive {
 public static void display() {
 for (Integer i = 1; i <= 10; i++) { System.debug('5 x ' + i + ' = ' + (5 * i));
@@ -113,8 +119,10 @@ for (Integer i = 1; i <= 10; i++) { System.debug('5 x ' + i + ' = ' + (5 * i));
 Execute:
 
 TableOfFive.display();
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 18.	Display Multiples of 10 (Table of 10)
+
 public class TableOfTen {
 public static void display() {
 for (Integer i = 1; i <= 10; i++) { System.debug('10 x ' + i + ' = ' + (10 * i));
@@ -125,8 +133,10 @@ for (Integer i = 1; i <= 10; i++) { System.debug('10 x ' + i + ' = ' + (10 * i))
 Execute:
 
 TableOfTen.display();
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 19.	Print a Welcome Message
+
 public class WelcomeMessage {
 public static void showMessage() {
 System.debug('Welcome to Apex Programming Language of Salesforce Platform');
